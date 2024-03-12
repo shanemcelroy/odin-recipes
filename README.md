@@ -1,1 +1,2 @@
 # odin-recipes
+My first HTML project with The Odin Project. In this project, I'm going to demonstrate my general knowledge of HTML and all of the elements that it contains like: creating lists, links, and images. When finished, the website won't look very pretty, but it will be fully functional, linking to various different recipes. 
