@@ -1,16 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 20px;
+}
+
 .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    color: lightpink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.center {
+    text-align: center;
 }
 
 .recipe {
-    background-color: aqua;
-    text-align: center;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    padding: 35px;
+    
 }
 
 .recipe.unhealthy {
     background-color: #ff0000;
-    text-align: left;
 }
 
